@@ -1,0 +1,643 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		776BF31621A66616000777C3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 776BF31521A66616000777C3 /* AppDelegate.swift */; };
+		776BF31821A66616000777C3 /* art.scnassets in Resources */ = {isa = PBXBuildFile; fileRef = 776BF31721A66616000777C3 /* art.scnassets */; };
+		776BF31A21A66616000777C3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 776BF31921A66616000777C3 /* ViewController.swift */; };
+		776BF31D21A66616000777C3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 776BF31B21A66616000777C3 /* Main.storyboard */; };
+		776BF31F21A66618000777C3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 776BF31E21A66618000777C3 /* Assets.xcassets */; };
+		776BF32221A66618000777C3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 776BF32021A66618000777C3 /* LaunchScreen.storyboard */; };
+		776BF32D21A66618000777C3 /* Aviation_SolutionsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 776BF32C21A66618000777C3 /* Aviation_SolutionsTests.swift */; };
+		776BF33821A66618000777C3 /* Aviation_SolutionsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 776BF33721A66618000777C3 /* Aviation_SolutionsUITests.swift */; };
+		776BF34621A66CD8000777C3 /* Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 776BF34521A66CD8000777C3 /* Extension.swift */; };
+		776BF34921A71FC1000777C3 /* Static.swift in Sources */ = {isa = PBXBuildFile; fileRef = 776BF34821A71FC1000777C3 /* Static.swift */; };
+		776BF34D21A74022000777C3 /* TableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 776BF34C21A74022000777C3 /* TableView.swift */; };
+		776BF34F21A74043000777C3 /* Location.swift in Sources */ = {isa = PBXBuildFile; fileRef = 776BF34E21A74043000777C3 /* Location.swift */; };
+		776BF35121A740EB000777C3 /* ViewControllerExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 776BF35021A740EB000777C3 /* ViewControllerExt.swift */; };
+		776BF35321A7536C000777C3 /* Annotation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 776BF35221A7536C000777C3 /* Annotation.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		776BF32921A66618000777C3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 776BF30A21A66616000777C3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 776BF31121A66616000777C3;
+			remoteInfo = "Aviation Solutions";
+		};
+		776BF33421A66618000777C3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 776BF30A21A66616000777C3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 776BF31121A66616000777C3;
+			remoteInfo = "Aviation Solutions";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		776BF31221A66616000777C3 /* Aviation Solutions.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Aviation Solutions.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		776BF31521A66616000777C3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		776BF31721A66616000777C3 /* art.scnassets */ = {isa = PBXFileReference; lastKnownFileType = wrapper.scnassets; path = art.scnassets; sourceTree = "<group>"; };
+		776BF31921A66616000777C3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		776BF31C21A66616000777C3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		776BF31E21A66618000777C3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		776BF32121A66618000777C3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		776BF32321A66618000777C3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		776BF32821A66618000777C3 /* Aviation SolutionsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Aviation SolutionsTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		776BF32C21A66618000777C3 /* Aviation_SolutionsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Aviation_SolutionsTests.swift; sourceTree = "<group>"; };
+		776BF32E21A66618000777C3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		776BF33321A66618000777C3 /* Aviation SolutionsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Aviation SolutionsUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		776BF33721A66618000777C3 /* Aviation_SolutionsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Aviation_SolutionsUITests.swift; sourceTree = "<group>"; };
+		776BF33921A66618000777C3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		776BF34521A66CD8000777C3 /* Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extension.swift; sourceTree = "<group>"; };
+		776BF34821A71FC1000777C3 /* Static.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Static.swift; sourceTree = "<group>"; };
+		776BF34C21A74022000777C3 /* TableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableView.swift; sourceTree = "<group>"; };
+		776BF34E21A74043000777C3 /* Location.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Location.swift; sourceTree = "<group>"; };
+		776BF35021A740EB000777C3 /* ViewControllerExt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerExt.swift; sourceTree = "<group>"; };
+		776BF35221A7536C000777C3 /* Annotation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Annotation.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		776BF30F21A66616000777C3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		776BF32521A66618000777C3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		776BF33021A66618000777C3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		776BF30921A66616000777C3 = {
+			isa = PBXGroup;
+			children = (
+				776BF31421A66616000777C3 /* Aviation Solutions */,
+				776BF32B21A66618000777C3 /* Aviation SolutionsTests */,
+				776BF33621A66618000777C3 /* Aviation SolutionsUITests */,
+				776BF31321A66616000777C3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		776BF31321A66616000777C3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				776BF31221A66616000777C3 /* Aviation Solutions.app */,
+				776BF32821A66618000777C3 /* Aviation SolutionsTests.xctest */,
+				776BF33321A66618000777C3 /* Aviation SolutionsUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		776BF31421A66616000777C3 /* Aviation Solutions */ = {
+			isa = PBXGroup;
+			children = (
+				776BF34A21A72491000777C3 /* Action View */,
+				776BF34721A66CE9000777C3 /* Extension */,
+				776BF31521A66616000777C3 /* AppDelegate.swift */,
+				776BF31721A66616000777C3 /* art.scnassets */,
+				776BF31B21A66616000777C3 /* Main.storyboard */,
+				776BF31E21A66618000777C3 /* Assets.xcassets */,
+				776BF32021A66618000777C3 /* LaunchScreen.storyboard */,
+				776BF32321A66618000777C3 /* Info.plist */,
+			);
+			path = "Aviation Solutions";
+			sourceTree = "<group>";
+		};
+		776BF32B21A66618000777C3 /* Aviation SolutionsTests */ = {
+			isa = PBXGroup;
+			children = (
+				776BF32C21A66618000777C3 /* Aviation_SolutionsTests.swift */,
+				776BF32E21A66618000777C3 /* Info.plist */,
+			);
+			path = "Aviation SolutionsTests";
+			sourceTree = "<group>";
+		};
+		776BF33621A66618000777C3 /* Aviation SolutionsUITests */ = {
+			isa = PBXGroup;
+			children = (
+				776BF33721A66618000777C3 /* Aviation_SolutionsUITests.swift */,
+				776BF33921A66618000777C3 /* Info.plist */,
+			);
+			path = "Aviation SolutionsUITests";
+			sourceTree = "<group>";
+		};
+		776BF34721A66CE9000777C3 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				776BF34821A71FC1000777C3 /* Static.swift */,
+				776BF34521A66CD8000777C3 /* Extension.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		776BF34A21A72491000777C3 /* Action View */ = {
+			isa = PBXGroup;
+			children = (
+				776BF34B21A724AC000777C3 /* Extension */,
+				776BF31921A66616000777C3 /* ViewController.swift */,
+			);
+			path = "Action View";
+			sourceTree = "<group>";
+		};
+		776BF34B21A724AC000777C3 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				776BF35021A740EB000777C3 /* ViewControllerExt.swift */,
+				776BF35221A7536C000777C3 /* Annotation.swift */,
+				776BF34C21A74022000777C3 /* TableView.swift */,
+				776BF34E21A74043000777C3 /* Location.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		776BF31121A66616000777C3 /* Aviation Solutions */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 776BF33C21A66618000777C3 /* Build configuration list for PBXNativeTarget "Aviation Solutions" */;
+			buildPhases = (
+				776BF30E21A66616000777C3 /* Sources */,
+				776BF30F21A66616000777C3 /* Frameworks */,
+				776BF31021A66616000777C3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Aviation Solutions";
+			productName = "Aviation Solutions";
+			productReference = 776BF31221A66616000777C3 /* Aviation Solutions.app */;
+			productType = "com.apple.product-type.application";
+		};
+		776BF32721A66618000777C3 /* Aviation SolutionsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 776BF33F21A66618000777C3 /* Build configuration list for PBXNativeTarget "Aviation SolutionsTests" */;
+			buildPhases = (
+				776BF32421A66618000777C3 /* Sources */,
+				776BF32521A66618000777C3 /* Frameworks */,
+				776BF32621A66618000777C3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				776BF32A21A66618000777C3 /* PBXTargetDependency */,
+			);
+			name = "Aviation SolutionsTests";
+			productName = "Aviation SolutionsTests";
+			productReference = 776BF32821A66618000777C3 /* Aviation SolutionsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		776BF33221A66618000777C3 /* Aviation SolutionsUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 776BF34221A66618000777C3 /* Build configuration list for PBXNativeTarget "Aviation SolutionsUITests" */;
+			buildPhases = (
+				776BF32F21A66618000777C3 /* Sources */,
+				776BF33021A66618000777C3 /* Frameworks */,
+				776BF33121A66618000777C3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				776BF33521A66618000777C3 /* PBXTargetDependency */,
+			);
+			name = "Aviation SolutionsUITests";
+			productName = "Aviation SolutionsUITests";
+			productReference = 776BF33321A66618000777C3 /* Aviation SolutionsUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		776BF30A21A66616000777C3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = "Kim Do";
+				TargetAttributes = {
+					776BF31121A66616000777C3 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					776BF32721A66618000777C3 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 776BF31121A66616000777C3;
+					};
+					776BF33221A66618000777C3 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 776BF31121A66616000777C3;
+					};
+				};
+			};
+			buildConfigurationList = 776BF30D21A66616000777C3 /* Build configuration list for PBXProject "Aviation Solutions" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 776BF30921A66616000777C3;
+			productRefGroup = 776BF31321A66616000777C3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				776BF31121A66616000777C3 /* Aviation Solutions */,
+				776BF32721A66618000777C3 /* Aviation SolutionsTests */,
+				776BF33221A66618000777C3 /* Aviation SolutionsUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		776BF31021A66616000777C3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				776BF31821A66616000777C3 /* art.scnassets in Resources */,
+				776BF32221A66618000777C3 /* LaunchScreen.storyboard in Resources */,
+				776BF31F21A66618000777C3 /* Assets.xcassets in Resources */,
+				776BF31D21A66616000777C3 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		776BF32621A66618000777C3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		776BF33121A66618000777C3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		776BF30E21A66616000777C3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				776BF34621A66CD8000777C3 /* Extension.swift in Sources */,
+				776BF34D21A74022000777C3 /* TableView.swift in Sources */,
+				776BF31A21A66616000777C3 /* ViewController.swift in Sources */,
+				776BF31621A66616000777C3 /* AppDelegate.swift in Sources */,
+				776BF35121A740EB000777C3 /* ViewControllerExt.swift in Sources */,
+				776BF34F21A74043000777C3 /* Location.swift in Sources */,
+				776BF35321A7536C000777C3 /* Annotation.swift in Sources */,
+				776BF34921A71FC1000777C3 /* Static.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		776BF32421A66618000777C3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				776BF32D21A66618000777C3 /* Aviation_SolutionsTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		776BF32F21A66618000777C3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				776BF33821A66618000777C3 /* Aviation_SolutionsUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		776BF32A21A66618000777C3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 776BF31121A66616000777C3 /* Aviation Solutions */;
+			targetProxy = 776BF32921A66618000777C3 /* PBXContainerItemProxy */;
+		};
+		776BF33521A66618000777C3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 776BF31121A66616000777C3 /* Aviation Solutions */;
+			targetProxy = 776BF33421A66618000777C3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		776BF31B21A66616000777C3 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				776BF31C21A66616000777C3 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		776BF32021A66618000777C3 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				776BF32121A66618000777C3 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		776BF33A21A66618000777C3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		776BF33B21A66618000777C3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		776BF33D21A66618000777C3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = XPLHHD6M5T;
+				INFOPLIST_FILE = "Aviation Solutions/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Kim-Do.Aviation-Solutions";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		776BF33E21A66618000777C3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = XPLHHD6M5T;
+				INFOPLIST_FILE = "Aviation Solutions/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Kim-Do.Aviation-Solutions";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		776BF34021A66618000777C3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = XPLHHD6M5T;
+				INFOPLIST_FILE = "Aviation SolutionsTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Kim-Do.Aviation-SolutionsTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Aviation Solutions.app/Aviation Solutions";
+			};
+			name = Debug;
+		};
+		776BF34121A66618000777C3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = XPLHHD6M5T;
+				INFOPLIST_FILE = "Aviation SolutionsTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Kim-Do.Aviation-SolutionsTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Aviation Solutions.app/Aviation Solutions";
+			};
+			name = Release;
+		};
+		776BF34321A66618000777C3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = XPLHHD6M5T;
+				INFOPLIST_FILE = "Aviation SolutionsUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Kim-Do.Aviation-SolutionsUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Aviation Solutions";
+			};
+			name = Debug;
+		};
+		776BF34421A66618000777C3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = XPLHHD6M5T;
+				INFOPLIST_FILE = "Aviation SolutionsUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Kim-Do.Aviation-SolutionsUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Aviation Solutions";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		776BF30D21A66616000777C3 /* Build configuration list for PBXProject "Aviation Solutions" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				776BF33A21A66618000777C3 /* Debug */,
+				776BF33B21A66618000777C3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		776BF33C21A66618000777C3 /* Build configuration list for PBXNativeTarget "Aviation Solutions" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				776BF33D21A66618000777C3 /* Debug */,
+				776BF33E21A66618000777C3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		776BF33F21A66618000777C3 /* Build configuration list for PBXNativeTarget "Aviation SolutionsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				776BF34021A66618000777C3 /* Debug */,
+				776BF34121A66618000777C3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		776BF34221A66618000777C3 /* Build configuration list for PBXNativeTarget "Aviation SolutionsUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				776BF34321A66618000777C3 /* Debug */,
+				776BF34421A66618000777C3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 776BF30A21A66616000777C3 /* Project object */;
+}
